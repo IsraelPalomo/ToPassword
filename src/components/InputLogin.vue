@@ -2,7 +2,7 @@
   <div class="InputLogin">
     <div class="InputLogin__container">
       <user-icon size="1.5x" class="InputLogin__icon"></user-icon>
-      <input class="InputLogin__input" type="text" placeholder="Name" />
+      <input class="InputLogin__input" type="text" placeholder="User" />
     </div>
     <div class="InputLogin__container">
       <key-icon size="1.5x" class="InputLogin__icon"></key-icon>
@@ -26,35 +26,5 @@ export default class InputLogin extends Vue {}
 
 <style lang="scss">
 @import "../assets/scss/_asset.scss";
-.InputLogin {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  justify-content: center;
-  justify-items: center;
-  margin-top: 5rem;
-
-  .InputLogin__container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    .InputLogin__input {
-      height: 2rem;
-      width: 100%;
-      min-width: 17rem;
-      border-radius: 5px;
-      border: none;
-      outline: none;
-      text-align: center;
-    }
-    .InputLogin__icon {
-      position: absolute;
-      padding: 0.5rem;
-      background-color: #7400b4;
-      border-radius: 5px;
-      color: #fff;
-    }
-  }
-}
+@import "../assets/scss/_inputlogin.scss";
 </style>
