@@ -1,0 +1,14 @@
+.UserIconLogin {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+
+  .UserIconLogin__icon {
+    color: $color-blanco;
+    padding: 0.5rem;
+    border: solid 4px $color-blanco;
+    border-radius: 100px;
+  }
+}

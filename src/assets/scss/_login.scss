@@ -1,5 +1,15 @@
-.waves {
+.Login {
+  background-color: $color-fondo;
   width: 100%;
-  position: fixed;
-  bottom: -10px;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+
+  .waves {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+  }
 }
