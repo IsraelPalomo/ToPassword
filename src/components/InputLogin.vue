@@ -8,6 +8,7 @@
       <key-icon size="1.5x" class="InputLogin__icon"></key-icon>
       <input class="InputLogin__input" type="password" placeholder="Password" />
     </div>
+    <a class="InputLogin__remember" href="#">Forgot your password?</a>
   </div>
 </template>
 

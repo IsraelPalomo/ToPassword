@@ -1,6 +1,6 @@
 .Btn {
   padding: 1rem;
-  background-color: $color-secundario;
+  background-color: $color-secondary;
   width: 7rem;
   height: 2rem;
   display: flex;
@@ -14,9 +14,9 @@
   position: relative;
   z-index: 2;
   &:hover {
-    background-color: #8809cc;
+    background-color: $color-background;
   }
   .Btn__title {
-    color: $color-blanco;
+    color: $color-white;
   }
 }

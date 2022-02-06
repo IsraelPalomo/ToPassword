@@ -7,8 +7,9 @@
     <main>
       <InputLogin />
       <Btn text="Login" />
+      <p>{{ t("lang.notification.msg") }}</p>
     </main>
-    <Waves class="waves" />
+    <footer><Waves class="waves" /> <Copy /></footer>
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import UserIconAN from "@/components/UserIconLogin.vue";
 import InputLogin from "@/components/InputLogin.vue";
 import NavBar from "@/components/NavBar.vue";
 import Btn from "@/components/Btn.vue";
+import Copy from "@/components/Copy.vue";
 
 @Component({
   components: {
@@ -27,6 +29,7 @@ import Btn from "@/components/Btn.vue";
     InputLogin,
     NavBar,
     Btn,
+    Copy,
   },
 })
 export default class Login extends Vue {}

@@ -5,7 +5,12 @@
   gap: 2rem;
   justify-content: center;
   justify-items: center;
-  margin: 3rem 0 4rem 0;
+  margin: 3rem 0 3rem 0;
+  .InputLogin__remember {
+    text-decoration: none;
+    color: $color-white;
+    cursor: pointer;
+  }
   .InputLogin__container {
     position: relative;
     display: flex;
@@ -25,7 +30,7 @@
     .InputLogin__icon {
       position: absolute;
       padding: 0.8rem;
-      background-color: #7400b4;
+      background-color: $color-secondary;
       border-radius: 5px;
       color: #fff;
       right: 0;

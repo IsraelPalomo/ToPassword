@@ -1,0 +1,11 @@
+.Copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Copy__title {
+    color: $color-white;
+    position: absolute;
+    z-index: 2;
+    bottom: 1rem;
+  }
+}
