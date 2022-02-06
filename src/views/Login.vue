@@ -7,7 +7,6 @@
     <main>
       <InputLogin />
       <Btn text="Login" />
-      <p>{{ t("lang.notification.msg") }}</p>
     </main>
     <footer><Waves class="waves" /> <Copy /></footer>
   </div>

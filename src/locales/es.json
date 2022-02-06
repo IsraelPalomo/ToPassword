@@ -1,3 +1,9 @@
 {
-  "message": "hello i18n !!"
+  "inputLogin": {
+    "remember": "¿Olvidaste tu contraseña?"
+  },
+  "copy": {
+    "title": "Diseñado y desarrollado por Israel Palomo España ©2022"
+  },
+  "login": "Inicio de sesión"
 }

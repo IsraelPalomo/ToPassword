@@ -1,6 +1,6 @@
 <template>
   <div class="Btn">
-    <p class="Btn__title">{{ text }}</p>
+    <p class="Btn__title" v-t="'login'"></p>
   </div>
 </template>
 

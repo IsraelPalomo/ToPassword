@@ -1,8 +1,6 @@
 <template>
   <div class="Copy">
-    <p class="Copy__title">
-      Designed and developed by Israel Palomo España ©2022
-    </p>
+    <p class="Copy__title" v-t="'copy.title'"></p>
   </div>
 </template>
 

@@ -17,11 +17,26 @@
   }
   .NavBar__actions {
     .NavBar__actions__langs {
+      display: flex;
+      gap: 1.5rem;
+      .container__langs {
+        display: flex;
+        gap: 1rem;
+      }
       .lang {
         padding: 0.8rem;
         border-radius: 5px;
         color: $color-white;
         background-color: $color-secondary;
+
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .lang-locale {
+        background-color: #61158a;
+      }
+      .active {
+        background-color: #61158a;
       }
     }
   }
